@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "irisejen",
+  "version": "${version}",
+  "name": "Iris Agent System",
+  "description": "Mod fan-made (tidak resmi) terinspirasi perangkat agen 'Iris': scanning, override mode, dan banyak skill.",
+  "authors": ["Fan"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.irisejen.IrisEjenMod"],
+    "client": ["dev.irisejen.client.IrisEjenClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
